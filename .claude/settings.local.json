@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(__NEW_LINE_428e84bb97e6a2b4__ mkdir:*)",
+      "Bash(cp dimension-*.html archive/)",
+      "Bash(mkdir:*)",
+      "Bash(__NEW_LINE_8ca0d80f8e1e97b0__ node:*)",
+      "Bash(node -c store.js)",
+      "Bash(node -c app.js)",
+      "Bash(node:*)",
+      "Bash(__NEW_LINE_623e5269ebae7337__ curl:*)",
+      "Bash(curl:*)",
+      "Bash(__NEW_LINE_56e70783157dd0ee__ curl:*)",
+      "Bash(netstat -ano)",
+      "Bash(start:*)",
+      "Bash(python:*)",
+      "Bash(node scripts/cdp.mjs eval DC48F3BA \"getComputedStyle\\(document.querySelector\\(''.stat-value''\\)\\).fontFamily\")"
+    ]
+  },
+  "disabledMcpjsonServers": [
+    "code-review-graph"
+  ]
+}
